@@ -15,7 +15,7 @@ It creates **unique online identity** on the internet and keep me updated about 
 <a class="btn btn-block" href="{_app_base_url}/?invited_by='.{user_username}">Click here to join!!</a>
 <br>
 
-[![](https://s3.amazonaws.com/postmaster.rime/attachments/20140718-183105_Untitled-5.png)]({_app_base_url}/?invited_by={user_username})
+[![](https://s3.amazonaws.com/trolley/attachments/20140718-183105_Untitled-5.png)]({_app_base_url}/?invited_by={user_username})
 
 <br>
 <br>

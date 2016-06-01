@@ -4,7 +4,7 @@ title: Did you miss me?
 
 In an era, defined by Donald Trump's insights to yet another Super Hero ensemble movie, we have few interesting things to…err…interest you into reading this mail further. WE ARE BACK!!
 
-![](https://s3.amazonaws.com/postmaster.rime/attachments/20160601-060615_didyoumissme.gif)
+![](https://s3.amazonaws.com/trolley/attachments/20160601-060615_didyoumissme.gif)
 
 Yeah…one of our favourite moments of Sherlock as well. We have meticulously (thanks, Thesaurus) worked hard over the past few months to bring you a better experience at Rime. We have always maintained that we will give your “complete picture” to your target audience and we thusly release Rime 2.5 to make a step further. Below are the feature-set of our new release.
 
