@@ -9,7 +9,7 @@ title: Test
 The terms **foobar** ([/ˈfuːbɑr/](https://en.wikipedia.org/wiki/Help:IPA_for_English "Help:IPA for English")), **fubar**, or **foo**, **bar**, **baz** and **qux** (alternatively, **quux**) and sometimes **norf**<sup>[[1]](https://en.wikipedia.org/wiki/Foobar#cite_note-1)</sup><sup>[[2]](https://en.wikipedia.org/wiki/Foobar#cite_note-2)</sup><sup>[[3]](https://en.wikipedia.org/wiki/Foobar#cite_note-3)</sup><sup>[[4]](https://en.wikipedia.org/wiki/Foobar#cite_note-4)</sup> and many others<sup>[[5]](https://en.wikipedia.org/wiki/Foobar#cite_note-hackerdict-5)</sup><sup>[[6]](https://en.wikipedia.org/wiki/Foobar#cite_note-6)</sup> are sometimes used as [placeholder names](https://en.wikipedia.org/wiki/Placeholder_name "Placeholder name") (also referred to as [metasyntactic variables](https://en.wikipedia.org/wiki/Metasyntactic_variable "Metasyntactic variable")) in [computer programming](https://en.wikipedia.org/wiki/Computer_programming "Computer programming") or computer-related documentation.<sup>[[7]](https://en.wikipedia.org/wiki/Foobar#cite_note-rfc3092-7)</sup> They have been used to name entities such as [variables](https://en.wikipedia.org/wiki/Variable_(computer_science) "Variable (computer science)"), [functions](https://en.wikipedia.org/wiki/Function_(computer_science) "Function (computer science)"), and [commands](https://en.wikipedia.org/wiki/Command_(computing) "Command (computing)") whose exact identity is unimportant and serve only to demonstrate a concept. The words themselves have no meaning in this usage. *Foobar* is sometimes used alone; *foo*, *bar*, and *baz* are sometimes used, when multiple entities are needed.
 
 <a href="https://en.wikipedia.org/wiki/Foobar#/media/File:Smokeycover.jpg">
-  <img class="fill" src="https://s3.amazonaws.com/postmaster.rime/attachments/20160118-160102_smokeycover.jpg">
+  <img class="fill" src="https://s3.amazonaws.com/trolley/attachments/20160118-160102_smokeycover.jpg">
 </a>
 
 Smokey Stover driving a "foomobile".
@@ -54,7 +54,7 @@ Smokey Stover driving a "foomobile".
     <tr>
       <td class="media-object">
         <a href="https://en.wikipedia.org/wiki/Emoji#/media/File:Emoji_u1f605.svg">
-          <img src="https://s3.amazonaws.com/postmaster.rime/attachments/20160118-170107_Emoji_u1f605-01.png">
+          <img src="https://s3.amazonaws.com/trolley/attachments/20160118-170107_Emoji_u1f605-01.png">
         </a>
       </td>
       <td>

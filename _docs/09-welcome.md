@@ -2,7 +2,7 @@
 title: 9-Welcome To The World of Awesomeness!
 ---
 
-Hi **{_to_name}** ([@{_metadata_username}]({_app_name}/@{_metadata_username})), welcome to {_app_name}!
+Hi **{_to_name}** ([@{_metadata_username}]({_app_base_url}/@{_metadata_username})), welcome to {_app_name}!
 
 We listed your sign in details below, make sure you keep them safe.
 
