@@ -6,7 +6,7 @@ title: Did you miss me?
 
 In an era, defined by Donald Trump's insights to yet another Super Hero ensemble movie, we have few interesting things to…err…interest you into reading this mail further. WE ARE BACK!!
 
-[https://38.media.tumblr.com/68eac6bac2bdf867be35c5c47a1838ac/tumblr\\\_inline\\\_mzjykyy94b1rtl4mm.gif][1]
+![](https://s3.amazonaws.com/postmaster.rime/attachments/20160601-060615_didyoumissme.gif)
 
 Yeah…one of our favourite moments of Sherlock as well. We have meticulously (thanks, Thesaurus) worked hard over the past few months to bring you a better experience at Rime. We have always maintained that we will give your “complete picture” to your target audience and we thusly release Rime 2.5 to make a step further. Below are the feature-set of our new release.
 
@@ -14,7 +14,9 @@ Yeah…one of our favourite moments of Sherlock as well. We have meticulously (t
 - @username : Your @username is more meaningful now. We have included your professional history, Places you have visited and all of your social footprints on the internet. Cannot find the same in your profile? Don't be paranoid now, and connect more social media profiles.
 - Guest Profile : We have built world’s first platform where you can create a social media wiki of your favourite people.
 
+Have fun!  
+&mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
+{% include email-footer.html %}
 
 
 
-[1]:	https://38.media.tumblr.com/68eac6bac2bdf867be35c5c47a1838ac/tumblr%5C_inline%5C_mzjykyy94b1rtl4mm.gif
