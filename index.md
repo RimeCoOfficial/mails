@@ -18,3 +18,5 @@ title: Home
     {% endif %}
   {% endfor %}
 </ul>
+
+<a href="http://php-lb-2022216618.us-east-1.elb.amazonaws.com/open/campaign/newsletter/ead727ee6c2453405e2fe2070f4622df#_=_">Newsletters</a>

@@ -1,3 +1,205 @@
+/* Based on The MailChimp Reset INLINE: Yes. */
+/* Client-specific Styles */
+#outlook a {
+  padding: 0;
+}
+
+/* Force Outlook to provide a "view in browser" menu link. */
+body {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/
+.ExternalClass {
+  width: 100%;
+}
+
+/* Force Hotmail to display emails at full width */
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+/* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+#backgroundTable {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  line-height: 100% !important;
+}
+/* End reset */
+/* Some sensible defaults for images
+    Bring inline: Yes. */
+
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+}
+
+a img {
+  border: none;
+}
+
+.image_fix {
+  display: block;
+}
+
+/* Yahoo paragraph fix
+    Bring inline: Yes. */
+p {
+  margin: 1em 0;
+}
+
+/* Hotmail header color reset
+    Bring inline: Yes. */
+h1, h2, h3, h4, h5, h6 {
+  color: black !important;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: blue !important;
+}
+
+h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+  color: red !important;
+  /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+}
+
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+  color: #000;
+  color: purple !important;
+  /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+}
+
+/* Outlook 07, 10 Padding issue fix
+    Bring inline: No.*/
+table td {
+  border-collapse: collapse;
+}
+
+/* Remove spacing around Outlook 07, 10 tables
+    Bring inline: Yes */
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  width: 100%!important;
+  height: 100%;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 1.6;
+}
+
+/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+    Bring inline: Yes. */
+a {
+  color: #348eda;
+}
+
+h1, h2, h3, h4, h5,
+p, ul, ol {
+  /* This fixes Gmail's terrible text rendering  */
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 20px 0 10px;
+  color: #000;
+  line-height: 1.2;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 26px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+
+p, ul, ol {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+ul li,
+ol li {
+  margin-left: 5px;
+  list-style-position: inside;
+}
+
+/* Body */
+table.body-wrap {
+  width: 100%;
+  padding: 30px;
+}
+
+
+/* Footer */
+table.footer-wrap {
+  width: 100%;
+  clear: both!important;
+}
+
+.footer-wrap .container p {
+  font-size: 12px;
+  color: #666;
+}
+
+table.footer-wrap a {
+  color: #999;
+}
+
+
+/* Give it some responsive love */
+.container {
+  display: block!important;
+  max-width: 600px!important;
+  margin: 0 auto!important; /* makes it centered */
+  clear: both!important;
+}
+
+/* Set the padding on the td rather than the div for Outlook compatibility */
+.body-wrap .container {
+  padding: 30px;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table {
+  width: 100%;
+}
+
+
+/* Custom */
 /* Make something awesome! */
 
 /* -- color scheme 
@@ -11,148 +213,14 @@
 // f9f9f9
 */
 
-/* ------------------------------------- 
-    GLOBAL 
-------------------------------------- */
-* { 
-  /*margin: 0;*/
-  /*padding: 0;*/
+img {
+    border: 0;
+    /*height: auto;*/
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+
+    max-width: 100% !important;
+    /*width: 100% !important;*/
+    /*height: auto !important;*/
 }
-* { font-family: sans-serif; }
-
-img { 
-  max-width: 100%;
-}
-img.fill { display:inline-block; width:100%; }
-
-body {
-  -webkit-font-smoothing: antialiased; 
-  -webkit-text-size-adjust: none; 
-  width: 100%!important; 
-  height: 100%;
-  margin: 0; padding: 0;
-}
-
-table { border-collapse: collapse; border: 0; border-spacing: 0; }
-td { padding: 0; }
-
-/* ------------------------------------- 
-    ELEMENTS 
-------------------------------------- */
-a { color: #DA2E75; }
-
-.btn {
-  text-decoration:none;
-  color: #FFF;
-  background-color: #DA2E75;
-  padding:10px 16px;
-  font-weight:bold;
-  margin-right:10px;
-  text-align:center;
-  cursor:pointer;
-  display: inline-block;
-}
-.btn-block { padding: 10px 0px; width:100%; }
-/*.btn-lg { width: 100%; max-width: 300px; }*/
-
-img .img-circle { border-radius:50% }
-img.brand { width: 150px; }
-
-hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eee; box-sizing: content-box; height: 0; }
-
-.white-space {
-  white-space: pre;           /* CSS 2.0 */
-  white-space: pre-wrap;      /* CSS 2.1 */
-  white-space: pre-line;      /* CSS 3.0 */
-  white-space: -pre-wrap;     /* Opera 4-6 */
-  white-space: -o-pre-wrap;   /* Opera 7 */
-  white-space: -moz-pre-wrap; /* Mozilla */
-  white-space: -hp-pre-wrap;  /* HP Printers */
-}
-
-/*.media {}
-.media-object { width:20%; vertical-align: top; padding-right:10px; }*/
-
-/* This should also be a block element, so that it will fill 100% of the .container */
-.media {
-  max-width:500px;
-  margin:0 auto;
-  display:block; 
-}
-.media-object {
-  width: 20% !important;
-  vertical-align: top;
-  padding-right:10px;
-}
-
-/* Let's make sure tables in the media area are 100% wide */
-.media table { width: 100%; }
-
-/* ------------------------------------- 
-    HEADER 
-------------------------------------- */
-img.brand { width: 150px; }
-
-
-/* ------------------------------------- 
-    TYPOGRAPHY 
-------------------------------------- */
-h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
-  line-height: 1.1;
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: #333333;
-  font-weight: bold;
-}
-
-h1 { font-weight: bold; font-size: 25px; }
-h2 { font-weight: bold; font-size: 22px; }
-h3 { font-weight: bold; font-size: 20px; }
-h4 { font-weight: bold; font-size: 18px; }
-h5 { font-weight: bold; font-size: 14px; }
-h6 { font-weight: bold; font-size: 12px; text-transform: uppercase; }
-
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-weight: normal; font-size: 80%; color: #777777; line-height: 1.1; text-transform: none; }
-
-p, ul, ol { 
-  margin-bottom: 10px; 
-  font-weight: normal; 
-  font-size: 14px;
-  line-height: 1.6;
-  color: #333333;
-}
-p.lead { font-size: 17px; }
-p.last { margin-bottom: 0px; }
-
-
-/* ------------------------------------- 
-    FOOTER 
-------------------------------------- */
-p.footer { font-size:12px; line-height:150%; color:#777777; text-align:justify; }
-p.footer a { color: #777777;  }
-
-
-/* ------------------------------------- 
-    CONTENT 
-------------------------------------- */
-.main { 
-  background-color: #ffffff;
-  background: #ffffff;
-  /*width: 100% !important;*/
-  padding: 0;
-  white-space: normal;
-  word-wrap: break-word;
-}
-.container {
-  display: block !important;
-  clear: both !important;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-collapse: collapse;
-  width:100% !important;
-  /* makes it centered */
-  /*margin: 0 auto!important; */
-}
-.container table { border-collapse: collapse; }
-.container td { width: 470px; }
