@@ -1,5 +1,5 @@
 ---
-title: 6-Invitation from {user_full_name} (@{user_username})
+title: Invitation from {user_full_name} (@{user_username})
 ---
 
 Hi **{to_name}**,

@@ -1,40 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>404 Page Not Found</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="{{ site.asset_url }}/third-party/plugins/twbs/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ site.asset_url }}/stylesheets/error.min.css">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,700" type="text/css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
 
   <body>
-    <section class="main">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            
-            <div class="logo">
-              <a href="{{ site.baseurl }}/"><img src="{{ site.asset_url }}/images/logo.png" height="40"></a>
-            </div>
-            
-            <div class="error-img">
-              <img class="img-responsive" src="{{ site.asset_url }}/images/error/unnamed-1.gif">
-            </div>
-            
-            <h1>{{ page.title }}</h1>
-            {{ content }}
-            
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="wrapper">
+      <section>{{ content }}</section>
+    </div>
   </body>
-
 </html>

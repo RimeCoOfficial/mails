@@ -1,5 +1,5 @@
 ---
-title: 10-Notification - {user_full_name} (@{user_username}) followed you
+title: Notification - {user_full_name} (@{user_username}) followed you
 ---
 
 {% comment %}

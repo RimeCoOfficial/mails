@@ -1,39 +1,36 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown:           kramdown
+highlighter:        rouge
 
-gems:             [jekyll-gist, jekyll-sitemap]
-
-permalink:        pretty
+# gems:               jekyll-sitemap
+permalink:          pretty
 
 # Setup
-title:            Mails
-description:      'Messages for <a href="/postmaster">Postmaster</a>'
-baseurl:          /mails
-
-asset_url:        https://rimeofficial.github.io/static
+title:              Mails
+description:        'Messages for <a href="/postmaster">Postmaster</a>'
+baseurl:            /mails
 
 # Custom vars
-version:          1.0.0
+version:            1.0.0
 
 # Github vars
 github:
-  username:       rimeofficial
+  username:         rimeofficial
 
 collections:
   docs:
-    output:       true
-    permalink:    /:path
+    output:         true
+    permalink:      /:path
 
 defaults:
   - scope:
-      path:       ''
-      type:       docs
+      path:         ''
+      type:         docs
     values:
-      layout:     email
+      layout:       email
 
-ga:               UA-41643154-1
+ga:                 UA-41643154-1
 
 app:
-  name:           Rime
-  domain:         rime.co
+  name:             Rime
+  url:              http://rime.co

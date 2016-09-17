@@ -1,5 +1,5 @@
 ---
-title: 7-Your {total_count} posts have been syncd
+title: Your {total_count} posts have been syncd
 ---
 
 Hi **{_to_name}** ([@{user_username}]({_app_base_url}/@{user_username})), your {total_count} posts have been updated.

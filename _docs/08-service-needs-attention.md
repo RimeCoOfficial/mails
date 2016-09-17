@@ -1,5 +1,5 @@
 ---
-title: 8-Your {actor_service} account needs attention
+title: Your {actor_service} account needs attention
 ---
 
 Hi **{_to_name}** ([@{user_username}]({_app_base_url}/@{user_username})), your following connected account needs attention.

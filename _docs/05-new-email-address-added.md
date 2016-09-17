@@ -1,5 +1,5 @@
 ---
-title: 5-A new email address added to your account
+title: A new email address added to your account
 ---
 
 Hi **{_to_name}** ([@{username}]({_app_base_url}/@{username})),

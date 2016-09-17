@@ -1,5 +1,5 @@
 ---
-title: 2-Sign in
+title: Sign in
 ---
 
 Hi **{_to_name}** ([@{username}]({_app_base_url}/@{username})),

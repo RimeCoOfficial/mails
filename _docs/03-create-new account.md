@@ -1,5 +1,5 @@
 ---
-title: 3-Create new account
+title: Create new account
 ---
 
 Hi **{_to_name}**,

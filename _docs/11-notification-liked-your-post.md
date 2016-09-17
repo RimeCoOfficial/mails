@@ -1,5 +1,5 @@
 ---
-title: 11-Notification - {user_full_name} (@{user_username}) liked your post
+title: Notification - {user_full_name} (@{user_username}) liked your post
 ---
 
 **{user_full_name}** ([@{user_username}]({_app_base_url}/@{user_username})) liked your post

@@ -1,5 +1,5 @@
 ---
-title: 12-Notification - {user_full_name} (@{user_username}) commented - {comment_sm}
+title: Notification - {user_full_name} (@{user_username}) commented - {comment_sm}
 ---
 
 **{user_full_name}** ([@{user_username}]({_app_base_url}/@{user_username})) commented on your post:

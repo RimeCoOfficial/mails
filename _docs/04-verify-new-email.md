@@ -1,5 +1,5 @@
 ---
-title: 4-Verify your new email address
+title: Verify your new email address
 ---
 
 Hi **{_to_name}** ([@{username}]({_app_base_url}/@{username})),
