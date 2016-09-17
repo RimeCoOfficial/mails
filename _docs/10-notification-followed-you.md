@@ -1,5 +1,6 @@
 ---
 title: Notification - {user_full_name} (@{user_username}) followed you
+include: footer
 ---
 
 {% comment %}
@@ -10,5 +11,3 @@ title: Notification - {user_full_name} (@{user_username}) followed you
 
 Have fun!  
 &mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
-
-{% include email-footer.html %}

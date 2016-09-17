@@ -47,6 +47,8 @@
           </table>
           <!-- /body -->
 
+          {% if page.include == 'footer' %}
+
           <!-- footer -->
           <table class="footer-wrap" cellpadding="0" cellspacing="0" border="0" align="center" >
             <tr>
@@ -58,7 +60,7 @@
                   <table>
                     <tr>
                       <td align="center" valign="top">
-                        <p>Don't like these emails? <a href="#"><unsubscribe>Unsubscribe</unsubscribe></a>.</p>
+                        {% include email-footer.html %}
                       </td>
                     </tr>
                   </table>
@@ -70,6 +72,8 @@
             </tr>
           </table>
           <!-- /footer -->
+
+          {% endif %}
 
         </td>
       </tr>

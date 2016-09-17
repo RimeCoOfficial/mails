@@ -1,5 +1,6 @@
 ---
 title: Welcome To The World of Awesomeness!
+include: footer
 ---
 
 Hi **{_to_name}** ([@{_metadata_username}]({_app_base_url}/@{_metadata_username})), welcome to {_app_name}!
@@ -11,5 +12,3 @@ Email address: {_to_email}
 
 Have fun!  
 &mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
-
-{% include email-footer.html %}

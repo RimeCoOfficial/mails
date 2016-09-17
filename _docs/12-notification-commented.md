@@ -1,5 +1,6 @@
 ---
 title: Notification - {user_full_name} (@{user_username}) commented - {comment_sm}
+include: footer
 ---
 
 **{user_full_name}** ([@{user_username}]({_app_base_url}/@{user_username})) commented on your post:
@@ -12,5 +13,3 @@ title: Notification - {user_full_name} (@{user_username}) commented - {comment_s
 
 Have fun!  
 &mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
-
-{% include email-footer.html %}

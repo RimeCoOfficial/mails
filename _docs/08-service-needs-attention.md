@@ -1,5 +1,6 @@
 ---
 title: Your {actor_service} account needs attention
+include: footer
 ---
 
 Hi **{_to_name}** ([@{user_username}]({_app_base_url}/@{user_username})), your following connected account needs attention.
@@ -17,5 +18,3 @@ Go to [setting]({_app_base_url}/settings/services) to resolve this.
 
 Keep Posting!  
 &mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
-
-{% include email-footer.html %}

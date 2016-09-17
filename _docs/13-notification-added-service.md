@@ -1,5 +1,6 @@
 ---
 title: Notification - {user_full_name} (@{user_username}) added {actor_service}
+include: footer
 ---
 
 **{user_full_name}** ([@{user_username}]({_app_base_url}/@{user_username})) added {actor_service}
@@ -12,5 +13,3 @@ title: Notification - {user_full_name} (@{user_username}) added {actor_service}
 
 Have fun!  
 &mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
-
-{% include email-footer.html %}

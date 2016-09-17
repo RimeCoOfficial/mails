@@ -1,5 +1,6 @@
 ---
 title: Did you miss me?
+include: footer
 ---
 
 In an era, defined by Donald Trump's insights to yet another Super Hero ensemble movie, we have few interesting things to…err…interest you into reading this mail further. WE ARE BACK!!
@@ -14,5 +15,3 @@ Yeah…one of our favourite moments of Sherlock as well. We have meticulously (t
 
 Have fun!  
 &mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
-
-{% include email-footer.html %}

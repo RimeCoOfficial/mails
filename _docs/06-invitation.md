@@ -1,5 +1,6 @@
 ---
 title: Invitation from {user_full_name} (@{user_username})
+include: footer
 ---
 
 Hi **{to_name}**,
@@ -36,5 +37,3 @@ It creates **unique online identity** on the internet and keep me updated about 
     </tbody>
   </table>
 </div>
-
-{% include email-footer.html %}

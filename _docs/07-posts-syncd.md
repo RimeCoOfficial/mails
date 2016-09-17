@@ -1,5 +1,6 @@
 ---
 title: Your {total_count} posts have been syncd
+include: footer
 ---
 
 Hi **{_to_name}** ([@{user_username}]({_app_base_url}/@{user_username})), your {total_count} posts have been updated.
@@ -24,5 +25,3 @@ Hi **{_to_name}** ([@{user_username}]({_app_base_url}/@{user_username})), your {
 
 Keep Posting!  
 &mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
-
-{% include email-footer.html %}

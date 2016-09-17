@@ -1,5 +1,6 @@
 ---
 title: Notification - {user_full_name} (@{user_username}) liked your post
+include: footer
 ---
 
 **{user_full_name}** ([@{user_username}]({_app_base_url}/@{user_username})) liked your post
@@ -10,5 +11,3 @@ title: Notification - {user_full_name} (@{user_username}) liked your post
 
 Have fun!  
 &mdash; The {_app_name} ([@rime]({_app_base_url}/@rime])) Team
-
-{% include email-footer.html %}
