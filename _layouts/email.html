@@ -1,82 +1,45 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }}</title>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ page.title }}</title>
 
-    <!-- <link rel="stylesheet" type="text/css" href="http://{{ site.github.username }}.github.io{{ site.baseurl }}/stylesheets/email.css"> -->
-    <!-- Debug email.css -->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/email.css">
+        <!-- <link rel="stylesheet" type="text/css" href="http://{{ site.github.username }}.github.io{{ site.baseurl }}/stylesheets/email.css"> -->
+        <!-- Debug email.css -->
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/email.css">
 
-    <!--[if gte mso 9]>
-      <style>
-        /* Target Outlook 2007 and 2010 */
-      </style>
-    <![endif]-->
-  </head>
-   
-  <body>
-
-    <table id="backgroundTable" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td>
-
-          <!-- body -->
-          <table class="body-wrap">
-            <tr>
-              <td></td>
-              <td class="container" bgcolor="#FFFFFF" valign="top">
-
-                <!-- content -->
-                <div class="content">
-                  <table>
-                    <tr>
-                      <td>
+        <!--[if gte mso 9]>
+            <style>
+                /* Target Outlook 2007 and 2010 */
+            </style>
+        <![endif]-->
+    </head>
+     
+    <body>
+        <table class="email">
+            <tbody>
+                <tr>
+                    <td>
+                        {% if page.include == 'footer' %}
+                            <a href="{_app_base_url}">
+                                <img class="avatar" src="https://cdn-images-1.medium.com/fit/c/150/150/1*ZQvOSxwY_Lf6saegXq0kCQ.png">
+                            </a>
+                            <h1>{{ page.title }}</h1>
+                        {% endif %}
 
                         {{ content }}
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-                <!-- /content -->
+                    </td>
+                </tr>
 
-              </td>
-              <td></td>
-            </tr>
-          </table>
-          <!-- /body -->
-
-          {% if page.include == 'footer' %}
-
-          <!-- footer -->
-          <table class="footer-wrap" cellpadding="0" cellspacing="0" border="0" align="center" >
-            <tr>
-              <td></td>
-              <td class="container">
-
-                <!-- content -->
-                <div class="content">
-                  <table>
-                    <tr>
-                      <td align="center" valign="top">
-                        {% include email-footer.html %}
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-                <!-- /content -->
-
-              </td>
-              <td></td>
-            </tr>
-          </table>
-          <!-- /footer -->
-
-          {% endif %}
-
-        </td>
-      </tr>
-    </table>
-  </body>
+                {% if page.include == 'footer' %}
+                <tr>
+                    <td>
+                    {% include email-footer.html %}
+                    </td>
+                </tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </body>
 </html>

@@ -37,7 +37,6 @@ The terms **foobar** ([/ˈfuːbɑr/](https://en.wikipedia.org/wiki/Help:IPA_for_
 
   - **foo**                     {foo}
 
-
 ## Emoji (づ￣ ³￣)づ
 
 The [Oxford Dictionary](https://en.wikipedia.org/wiki/Oxford_Dictionary) named 😂 (Face With Tears of Joy) its 2015 [Word of the year](https://en.wikipedia.org/wiki/Word_of_the_year#Oxford").

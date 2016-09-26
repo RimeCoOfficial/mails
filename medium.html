@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <base target="_blank">
+        <style class="icloud-message-base-styles">
+            @font-face {
+                font-family: 'SFNSText';
+                src: local(".SFNSText-Light"), url('/fonts/SFNSText-Light.woff') format('woff');
+                font-weight: 300;
+            }
+            @font-face {
+                font-family: 'SFNSText';
+                src: local(".SFNSText-Medium"), url('/fonts/SFNSText-Medium.woff') format('woff');
+                font-weight: 500;
+            }
+            body {
+                background-color: #ffffff;
+                padding: 13px 20px 0px 20px;
+                font: 15px 'SFNSText', 'Helvetica Neue', Helvetica, sans-serif;
+                font-weight: 300;
+                line-height: 1.5;
+                margin: 0px;
+                /*overflow: hidden;*/
+                word-wrap: break-word;
+            }
+            blockquote[type=cite].quoted-plain-text {
+                line-height: 1.5;
+                padding-bottom: 0px;
+                white-space: normal;
+            }
+            blockquote[type=cite] {
+                border-left: 2px solid #003399;
+                margin: 0;
+                padding: 0 12px 0 12px;
+                font-size: 15px;
+                color: #003399;
+            }
+            blockquote[type=cite] blockquote[type=cite] {
+                border-left: 2px solid #006600;
+                margin: 0;
+                padding: 0 12px 0 12px;
+                font-size: 15px;
+                color: #006600
+            }
+            blockquote[type=cite] blockquote[type=cite] blockquote[type=cite] {
+                border-left: 2px solid #660000;
+                margin: 0;
+                padding: 0 12px 0 12px;
+                font-size: 15px;
+                color: #660000
+            }
+            pre {
+                white-space: pre-wrap;
+                white-space: -moz-pre-wrap;
+                white-space: -pre-wrap;
+                white-space: -o-pre-wrap;
+                word-wrap: break-word;
+                white-space: pre-wrap !important;
+                word-wrap: normal !important;
+                font-size: 15px;
+            }
+            .pre-cb519bb3-da83-4aa7-8553-1a9b4a7281ae-orientation-2 {
+                transform: scaleX(-1);
+                -webkit-transform: scaleX(-1);
+                -ms-transform: scaleX(-1);
+            }
+            .pre-cb519bb3-da83-4aa7-8553-1a9b4a7281ae-orientation-3 {
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+            }
+            .pre-cb519bb3-da83-4aa7-8553-1a9b4a7281ae-orientation-4 {
+                transform: rotate(180deg) scaleX(-1);
+                -webkit-transform: rotate(180deg) scaleX(-1);
+                -ms-transform: rotate(180deg) scaleX(-1);
+            }
+            .pre-cb519bb3-da83-4aa7-8553-1a9b4a7281ae-orientation-5 {
+                transform: rotate(270deg) scaleX(-1);
+                -webkit-transform: rotate(270deg) scaleX(-1);
+                -ms-transform: rotate(270deg) scaleX(-1);
+            }
+            .pre-cb519bb3-da83-4aa7-8553-1a9b4a7281ae-orientation-6 {
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+            }
+            .pre-cb519bb3-da83-4aa7-8553-1a9b4a7281ae-orientation-7 {
+                transform: rotate(90deg) scaleX(-1);
+                -webkit-transform: rotate(90deg) scaleX(-1);
+                -ms-transform: rotate(90deg) scaleX(-1);
+            }
+            .pre-cb519bb3-da83-4aa7-8553-1a9b4a7281ae-orientation-8 {
+                transform: rotate(270deg);
+                -webkit-transform: rotate(270deg);
+                -ms-transform: rotate(270deg);
+            }
+            .x-apple-maildropbanner {
+                margin-top: -13px;
+            }
+            a.view-message-icloud-share,
+            a.view-message-icloud-share:visited {
+                cursor: pointer;
+                color: #0000EE;
+                text-decoration: underline;
+            }
+            a.view-message-icloud-share:hover {
+                text-decoration: underline;
+            }
+        </style>
+        <style type="text/css" class="existing-message-styles">
+            @media only screen and (max-width: 650px) {
+                .email {
+                    width: 100% !important;
+                    padding-top: 20px !important;
+                    padding-right: 10px !important;
+                    padding-bottom: 20px !important;
+                    padding-left: 10px !important;
+                    border-width: 0 !important;
+                }
+            }
+            @media all and (max-width: 500px) {
+                .email {
+                    width: 100% !important;
+                }
+                .email-logo:not(.email-logo--collection) {
+                    width: 40px !important;
+                }
+                .email-hr {
+                    margin-top: 25px;
+                    margin-right: auto;
+                    margin-bottom: 25px;
+                    margin-left: auto;
+                }
+                .email-section--short + .email-hr {
+                    margin-top: 15px;
+                }
+                .email-disclaimer {
+                    font-size: 12px;
+                }
+                .email-title--stats {
+                    font-size: 32px;
+                }
+                .email-title--smallCaps {
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+                .email-title--post {
+                    font-size: 22px;
+                    line-height: 26px;
+                }
+                .email-postImage {
+                    width: 92px;
+                    height: 80px;
+                }
+                .email-postImage--hero {
+                    float: right;
+                    margin-left: 7px;
+                }
+                .email-snippet {
+                    display: none;
+                }
+                .email-card {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+                .email-headline--section {
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin-bottom: 5px;
+                }
+                .email-subtitle--section {
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+                .email-responseButton {
+                    display: none;
+                }
+                .v-newDigestDesign .email-postImage--hero {
+                    margin-right: 15px;
+                    margin-top: 57px;
+                }
+            }
+        </style>
+        <style class="icloud-message-dynamic-styles">
+            img._auto-scale,
+            img._stretch {
+                max-width: 480px !important;
+                width: auto !important;
+                height: auto !important;
+            }
+            span.body-text-content {
+                white-space: pre-wrap;
+            }
+            iframe.attachment-pdf {
+                width: 475px;
+                height: 416px;
+            }
+            ._stretch {
+                max-width: 480px;
+            }
+            body._mail-body-bg {
+                width: 520px !important;
+            }
+            ._mail-body {
+                width: 480px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table class="email" style="width: 600px; margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto; padding-top: 40px; padding-right: 20px; padding-bottom: 40px; padding-left: 20px; color: #333332; line-height: 1.4; font-size: 16px; font-weight: 300; font-family: -apple-system , BlinkMacSystemFont , &quot;Segoe UI&quot; , &quot;Roboto&quot; , &quot;Oxygen&quot; , &quot;Ubuntu&quot; , &quot;Cantarell&quot; , &quot;Open Sans&quot; , &quot;Helvetica Neue&quot; , sans-serif;">
+            <tbody>
+                <tr>
+                    <td><img src="https://medium.com/_/stat?event=email.opened&amp;source=email-anon_21eb7d105714--publication.newsletter" width="1" height="1">
+                        <div>
+                            <div class="email-sectionPreview email-sectionPreview--collection email-sectionPreview--borderless email-u-center" style="text-align: center !important; margin-top: 15px; margin-right: 0; margin-bottom: 30px; margin-left: 0; padding-top: 0; border-top: 1px solid #e5e5e5; border: 0;">
+                                <a href="https://medium.com/rimeofficial?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: none;"><img class="email-avatar email-avatar--medium email-avatar--square email-u-inlineBlock" src="https://cdn-images-1.medium.com/fit/c/150/150/1*ZQvOSxwY_Lf6saegXq0kCQ.png" alt="Rime" style="display: inline-block !important; float: none !important; vertical-align: middle; width: 75px; height: 75px; border-radius: 0; background: #f0f0f0; line-height: 0; margin-right: 10px;">
+                                </a>
+                            </div>
+                            <div class="email-u-left" style="text-align: left !important;">
+                                <h2 class="email-title email-u-left" style="text-align: left !important; font-family: Charter , Georgia , Cambria , &quot;Times New Roman&quot; , Times , serif; font-size: 32px; font-weight: 300; line-height: 36px; margin-bottom: 20px;">Foobar</h2>
+                                <h4 class="email-subtitle email-subtitle--letter email-u-left" style="text-align: left !important; font-weight: 300; font-size: 26px; line-height: 32px; font-family: -apple-system , BlinkMacSystemFont , &quot;Segoe UI&quot; , &quot;Roboto&quot; , &quot;Oxygen&quot; , &quot;Ubuntu&quot; , &quot;Cantarell&quot; , &quot;Open Sans&quot; , &quot;Helvetica Neue&quot; , sans-serif; color: #b3b3b1;">From Wikipedia, the free encyclopedia</h4>
+                                <p class="email-u-left" style="text-align: left !important; margin-top: 0; margin-bottom: 20px;">The terms <strong class="email-u-bold" style="font-weight: 700 !important;">foobar</strong> (<a class="email-link email-link--underline" href="http://me.dm/r-66o-SJstly?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: underline;">/ˈfuːbɑr/</a>), <strong class="email-u-bold" style="font-weight: 700 !important;">fubar</strong>, or <strong class="email-u-bold" style="font-weight: 700 !important;">foo</strong>, <strong class="email-u-bold" style="font-weight: 700 !important;">bar</strong>, <strong class="email-u-bold" style="font-weight: 700 !important;">baz</strong> and <strong class="email-u-bold" style="font-weight: 700 !important;">qux</strong> (alternatively,<strong class="email-u-bold" style="font-weight: 700 !important;">quux</strong>) and sometimes <strong class="email-u-bold" style="font-weight: 700 !important;">norf</strong> are sometimes used as <a class="email-link email-link--underline" href="http://me.dm/r-nESst_ZzS3?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: underline;">placeholder names</a> (also referred to as <a class="email-link email-link--underline" href="http://me.dm/r-ifk7tIdDNI?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: underline;">metasyntactic variables</a>) in <a class="email-link email-link--underline" href="http://me.dm/r-JRVbT31Yyk?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: underline;">computer programming</a> or computer-related documentation.</p>
+                                <p class="email-image email-u-center" style="text-align: center !important; margin-top: 0; margin-bottom: 20px;"><img class="email-u-maxFillWidth" src="https://cdn-images-1.medium.com/max/500/0*i6GtR34nMmt-NgAk." style="max-width: 100% !important;">
+                                </p>
+                                <h2 class="email-title email-u-left" style="text-align: left !important; font-family: Charter , Georgia , Cambria , &quot;Times New Roman&quot; , Times , serif; font-size: 32px; font-weight: 300; line-height: 36px; margin-bottom: 20px;">Pseudo Vars</h2>
+                                <h4 class="email-subtitle email-subtitle--letter email-u-left" style="text-align: left !important; font-weight: 300; font-size: 26px; line-height: 32px; font-family: -apple-system , BlinkMacSystemFont , &quot;Segoe UI&quot; , &quot;Roboto&quot; , &quot;Oxygen&quot; , &quot;Ubuntu&quot; , &quot;Cantarell&quot; , &quot;Open Sans&quot; , &quot;Helvetica Neue&quot; , sans-serif; color: #b3b3b1;">Reserved</h4>
+                                <ol class="email-list email-list--ordered">
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_request_id</strong> {_request_id}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_subject</strong> {_subject}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_recipient_id</strong> {_recipient_id}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_to_email</strong> {_to_email}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_to_name</strong> {_to_name}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_reply_to_email</strong> {_reply_to_email}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_reply_to_name</strong> {_reply_to_name}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_unsubscribe_link</strong> {_unsubscribe_link}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_web_version_link</strong> {_web_version_link}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_current_day</strong> {_current_day}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_current_day_number</strong> {_current_day_number}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_current_date</strong> {_current_date}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_current_month</strong> {_current_month}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_current_month_number</strong> {_current_month_number}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_current_year</strong> {_current_year}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_app_name</strong> {_app_name}</li>
+                                    <li class="email-u-left email-list-item" style="text-align: left !important; margin-bottom: 10px;"><strong class="email-u-bold" style="font-weight: 700 !important;">_app_base_url</strong> {_app_base_url}</li>
+                                </ol>
+                                <h4 class="email-subtitle email-subtitle--letter email-u-left" style="text-align: left !important; font-weight: 300; font-size: 26px; line-height: 32px; font-family: -apple-system , BlinkMacSystemFont , &quot;Segoe UI&quot; , &quot;Roboto&quot; , &quot;Oxygen&quot; , &quot;Ubuntu&quot; , &quot;Cantarell&quot; , &quot;Open Sans&quot; , &quot;Helvetica Neue&quot; , sans-serif; color: #b3b3b1;">Custom</h4>
+                                <ul class="email-list email-list--unordered">
+                                    <li class="email-u-left email-list-item" style="text-align: left !important;"><strong class="email-u-bold" style="font-weight: 700 !important;">foo</strong> {foo}</li>
+                                </ul>
+                                <p class="email-u-left email-quote" style="text-align: left !important; margin-top: 0; margin-bottom: 20px; border-left: solid 2px #000000; padding-left: 10px; font-style: italic;">blockquote</p>
+                                <h2 class="email-title email-u-left" style="text-align: left !important; font-family: Charter , Georgia , Cambria , &quot;Times New Roman&quot; , Times , serif; font-size: 32px; font-weight: 300; line-height: 36px; margin-bottom: 20px;">Emoji (づ￣ ³￣)づ</h2>
+                                <p class="email-u-left" style="text-align: left !important; margin-top: 0; margin-bottom: 20px;">The <a class="email-link email-link--underline" href="http://me.dm/r-FQL7rBWehW?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: underline;">Oxford Dictionary</a> named 😂 (Face With Tears of Joy) its 2015 <a class="email-link email-link--underline" href="http://me.dm/r-zjMMPJYQuz?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: underline;">Word of the year</a>.</p>
+                                <p class="email-image email-u-center" style="text-align: center !important; margin-top: 0; margin-bottom: 20px;"><img class="email-u-maxFillWidth" src="https://cdn-images-1.medium.com/max/128/0*-I4O4sppYcTBKJIW.png" style="max-width: 100% !important;"><span class="email-caption" style="display: block; font-family: Charter , Georgia , Cambria , &quot;Times New Roman&quot; , Times , serif; font-size: 12px; font-style: italic; font-weight: 300; margin-bottom: 10px;"><a href="https://en.wikipedia.org/wiki/Emoji">https://en.wikipedia.org/wiki/Emoji</a></span>
+                                </p>
+                                <p class="email-u-left" style="text-align: left !important; margin-top: 0; margin-bottom: 20px;">© {_app_name}, IIT Bombay, India, MH 400076.
+                                    <br>{_app_name} respects your privacy. Read our online <a class="email-link email-link--underline" href="http://me.dm/r-OZoUoUCBdh?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: underline;">Privacy statement</a>. </p>
+                                <p class="email-u-left" style="text-align: left !important; margin-top: 0; margin-bottom: 20px;">This message was sent to {_to_email}. You can <a class="email-link email-link--underline" href="http://me.dm/r-nz1HHXGs3C?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: underline;">unsubscribe</a> from these emails. You can also change your preferences by visiting your Email Options in your {_app_name} account at <a class="email-link email-link--underline" href="http://me.dm/r-KBNhyk_B6E?source=email-anon_21eb7d105714--publication.newsletter" style="color: #333332; text-decoration: underline;">settings/notifications</a>.</p>
+                                <p class="email-u-left" style="text-align: left !important; margin-top: 0; margin-bottom: 20px;"></p>
+                                <p class="email-u-left" style="text-align: left !important; margin-top: 0; margin-bottom: 20px;"></p>
+                            </div>
+                            <div class="email-u-left email-section--letter" style="text-align: left !important; margin-top: 20px; font-size: 12px;">
+                                <div class="email-linkSet" style="margin-top: 15px; margin-bottom: 35px;"><a class="button button--withChrome u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--withIconAndLabel button--withSvgIcon email-link email-link--primary" href="https://medium.com/_/api/requests/700e8502b386?source=email-anon_21eb7d105714--publication.newsletter" style="color: #02b875; text-decoration: none; margin-right: 15px;"><span class="button-defaultState"><img class="email-icon email-icon--micro email-icon--marginLeft0" src="https://cdn-static-1.medium.com/_/fp/img/email/heart@2x.qvCTX1XHNpntqxt01oypQw.png" style="display: inline-block; vertical-align: middle; width: 18px; margin-top: 0; margin-right: 5px; margin-bottom: 0; margin-left: 5px;"></span><span class="button-label">Recommend</span></a><a class="button button--withChrome u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--withIconAndLabel button--withSvgIcon email-link" href="https://medium.com/rimeofficial/97c8c12c59fe?source=email-anon_21eb7d105714--publication.newsletter#--respond" style="color: #333332; text-decoration: none; margin-right: 0;"><span class="button-defaultState"><img class="email-icon email-icon--micro" src="https://cdn-static-1.medium.com/_/fp/img/email/response@2x.xzKQM4FzSurAVkghLQQWkA.png" style="display: inline-block; vertical-align: middle; width: 18px; margin-top: 0; margin-right: 5px; margin-bottom: 0; margin-left: 5px;"></span><span class="button-label">Respond</span></a>
+                                </div>
+                            </div>
+                            <div class="email-u-left email-section--letter" style="text-align: left !important; margin-top: 20px; font-size: 12px;"><a class="email-link email-link--transparentBlack" href="https://medium.com/rimeofficial/97c8c12c59fe?source=email-anon_21eb7d105714--publication.newsletter" style="color: rgba(0 , 0 , 0 , 0.44); text-decoration: none;">View in browser</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="email-logo email-logo--small" src="https://cdn-static-1.medium.com/_/fp/img/email/email-logo.x91rxfZYzIT9OJ5-ySD30A.png" alt="Medium Logo" style="display: block; margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto; width: 32px;">
+                        <div class="email-footer" style="padding-top: 15px; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 50px; color: #b3b3b1; font-size: 12px; text-align: center; border-top: 1px solid #e5e5e5;">Sent by <a class="email-link email-link--muted email-link--underline" href="https://medium.com/?source=email-anon_21eb7d105714--publication.newsletter" style="color: #b3b3b1; text-decoration: underline;">Medium</a> · 760 Market Street, 9th floor, San Francisco, CA 94102
+                            <div><a class="email-link email-link--muted email-link--underline" href="https://medium.com/me/email-settings/78a957ffb71c/ca79858f85e806c14fe42dc2f4682c35?source=email-anon_21eb7d105714--publication.newsletter&amp;type=letter&amp;collectionId=fef71f031261" style="color: #b3b3b1; text-decoration: underline;">Unsubscribe</a> from this type of email · <a class="email-link email-link--muted email-link--underline" href="https://help.medium.com" style="color: #b3b3b1; text-decoration: underline;">Help center</a> · <a class="email-link email-link--muted email-link--underline" href="https://medium.com/policy/f03bf92035c9?source=email-anon_21eb7d105714--publication.newsletter" style="color: #b3b3b1; text-decoration: underline;">Privacy policy</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
