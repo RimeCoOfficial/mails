@@ -1,12 +1,15 @@
 ---
 title: No Password
+include: footer
 ---
 
-Hello User,
+![](https://s3.amazonaws.com/trolley/attachments/20160927-120930_tag-cloud-password.png)
 
-We are not going to be yet another social media that asks you to create new password to login to Rime because we believe remembering passwords is a thing of past. Instead, just use your
-authenticated social media login, and enjoy scrolling through your Rime feed.
+Hi {_to_name} ([@{_metadata_username}]({_app_base_url}/@{_metadata_username})),
 
-Or if you are unwilling to use your social media login for Rime, you can instead provide your email id for login. We will send you a secured login link on your mail, and you can login by clicking on it.
+We are not going to be yet another social media that asks you to create new password to login to {_app_name} because we believe remembering passwords is a thing of past. Instead, just use your authenticated social media login, and enjoy.
 
-Facing any troubles? Let us know…
+Facing any troubles? Let us know.
+
+Thanks!  
+&mdash; The {_app_name} ([@rime]({_app_base_url}/@rime})) Team
